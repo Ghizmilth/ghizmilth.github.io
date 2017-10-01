@@ -44,6 +44,7 @@ img {
 .my-title {
   font-size: 90%;
 }
+
 .about {
   position: absolute;
   z-index: 1000;
@@ -230,41 +231,8 @@ h1 {
   }
 }
 
-/*.container {
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 92%;
-  width: 90%;
-  margin: 4% 5% 4% 5%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #008cba;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
+.footer-info {
+  text-align: center;
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}*/
+  background-color: #616161;
+}

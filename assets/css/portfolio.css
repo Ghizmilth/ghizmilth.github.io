@@ -3,7 +3,7 @@ body {
   padding: 0;
   color: #eeeeee;
   background: #195067;
-  background: linear-gradient(##195067, #3f758d, #669cb4, #8cc2da);
+  background: linear-gradient(#195067, #3f758d, #669cb4, #8cc2da);
   background: -moz-linear-gradient(#195067, #3f758d, #669cb4, #8cc2da);
   background: -o-linear-gradient(#195067, #3f758d, #669cb4, #8cc2da);
   background: -webkit-linear-gradient(#195067, #3f758d, #669cb4, #8cc2da);
@@ -36,8 +36,8 @@ img {
 }
 
 .main-image {
-  width: 90%;
-  margin-left: 5%;
+  /*width: 95%;*/
+  /*margin-left: 2.5%;*/
 }
 
 .my-name {

@@ -40,10 +40,12 @@ img {
   font-size: 1.35em;
   text-align: left;
   color: #eeeeee;
+  text-decoration: underline;
 }
 
 .my-title {
   font-size: 90%;
+  margin-top: -30px;
 }
 
 .about {

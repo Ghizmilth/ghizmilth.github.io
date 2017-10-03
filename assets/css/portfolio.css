@@ -18,8 +18,8 @@ body {
   width: 85%;
   margin: 2% 7.5% 0 7.5%;
   height: 2px;
-  background-color: black;
-  border-color: #252839;
+  background-color: white;
+  border-color: white;
 }
 
 .underline {
@@ -33,11 +33,6 @@ img {
   background-position-x: 50%;
   position: relative;
   box-shadow: 0px 10px 5px #195067;
-}
-
-.main-image {
-  /*width: 95%;*/
-  /*margin-left: 2.5%;*/
 }
 
 .my-name {
@@ -61,6 +56,9 @@ img {
 
 .name-line {
   height: 1%;
+  border-color: white;
+  background-color: white;
+  width: 45%;
 }
 
 .text {
@@ -155,7 +153,7 @@ h1 {
 
 .section-title {
   margin-top: 7%;
-  background-color: #e0e0e0;
+  background-color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -239,5 +237,5 @@ h1 {
   text-align: center;
   color: black;
   font-weight: bold;
-  background-color: #e0e0e0;
+  background-color: white;
 }

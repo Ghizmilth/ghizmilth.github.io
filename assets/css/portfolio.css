@@ -37,15 +37,13 @@ img {
 
 .my-name {
   font-family: "Marcellus SC", serif;
-  font-size: 1.35em;
+  font-size: 140%;
   text-align: left;
   color: #eeeeee;
-  text-decoration: underline;
 }
 
 .my-title {
-  font-size: 90%;
-  margin-top: -30px;
+  font-size: 60%;
 }
 
 .about {

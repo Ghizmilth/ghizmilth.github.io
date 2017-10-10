@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #eeeeee;
-  /*background: #195067;*/
+  background: #195067;
   background: linear-gradient(#195067, #3f758d, #669cb4, #8cc2da);
   background: linear-gradient(#195067, #3f758d, #669cb4, #8cc2da);
   background: -moz-linear-gradient(#195067, #3f758d, #669cb4, #8cc2da);

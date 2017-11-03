@@ -56,6 +56,22 @@ img {
   font-size: 50px;
 }
 
+.main-image {
+  box-shadow: none;
+}
+
+.face-image {
+  height: 25%;
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 150px;
+  box-shadow: none;
+}
+
+.personal-pic {
+  text-align: center;
+}
+
 .name-line {
   height: 1%;
   border-color: white;
@@ -134,8 +150,8 @@ p {
 }
 
 article {
-  margin-top: 1%;
-  padding: 10%;
+  /*margin-top: 1%;*/
+  padding: 2%;
 }
 
 h1 {
@@ -208,7 +224,7 @@ h1 {
   .skills-1,
   .skills-2,
   .skills-3 {
-    font-size: 1.8em;
+    font-size: 1.2em;
   }
 }
 

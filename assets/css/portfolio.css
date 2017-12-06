@@ -2,18 +2,127 @@ body {
   margin: 0;
   padding: 0;
   color: #eeeeee;
-  background: #242b36;
+  background: white;
+  /*#242b36;
   background: linear-gradient(#242b36, #242b36, #4f555e, #bdbfc2);
   background: linear-gradient(#242b36, #242b36, #4f555e, #bdbfc2);
   background: -moz-linear-gradient(#242b36, #242b36, #4f555e, #bdbfc2);
   background: -o-linear-gradient(#242b36, #242b36, #4f555e, #bdbfc2);
-  background: -webkit-linear-gradient(#242b36, #242b36, #4f555e, #bdbfc2);
+  background: -webkit-linear-gradient(#242b36, #242b36, #4f555e, #bdbfc2);*/
   font-family: "Quicksand", sans-serif;
 }
 
+.hexagons {
+  height: 800px;
+  width: 1000px;
+  float: right;
+  margin-top: -500px;
+  margin-right: 3%;
+}
+
+.yellow-shape {
+  background: #f6ce2f;
+  z-index: 1000;
+  height: 400px;
+  width: 500px;
+  position: relative;
+  transform: rotate(45deg);
+  float: right;
+  margin-top: 12%;
+  margin-right: 8%;
+  border: none;
+}
+
+.yellow-shape::before,
+.yellow-shape::after {
+  content: "";
+  position: absolute;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+.yellow-shape:before {
+  border-bottom: 250px solid #f6ce2f;
+  bottom: 100%;
+}
+
+.yellow-shape:after {
+  border-top: 250px solid #f6ce2f;
+  top: 100%;
+}
+
+.grey-shape {
+  background-color: #767171;
+  height: 280px;
+  width: 420px;
+  margin-top: -29%;
+  margin-right: 6.5%;
+  transform: rotate(45deg);
+  float: right;
+  position: relative;
+  z-index: 800;
+}
+
+.grey-shape::before,
+.grey-shape::after {
+  content: "";
+  position: absolute;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+.grey-shape:before {
+  border-bottom: 210px solid #767171;
+  bottom: 100%;
+}
+
+.grey-shape:after {
+  border-top: 210px solid #767171;
+  top: 100%;
+}
+
+.lightgrey-shape {
+  background-color: #dbdbdb;
+  height: 160px;
+  width: 280px;
+  transform: rotate(45deg);
+  float: right;
+  margin-top: -16%;
+  margin-right: 6%;
+  z-index: 600;
+  position: relative;
+}
+
+.lightgrey-shape::before,
+.lightgrey-shape::after {
+  content: "";
+  position: absolute;
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+.lightgrey-shape:before {
+  border-bottom: 140px solid #dbdbdb;
+  bottom: 100%;
+}
+
+.lightgrey-shape:after {
+  border-top: 140px solid #dbdbdb;
+  top: 100%;
+}
+
 .profile-pic {
-  width: 90%;
+  height: 510px;
+  background: black;
   margin: 0 auto;
+  position: relative;
+  z-index: -1;
 }
 
 .under-pic {
@@ -86,7 +195,7 @@ img {
 }
 
 #project-title {
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
@@ -95,7 +204,7 @@ a {
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 .linkedin-icon {
@@ -197,6 +306,79 @@ h1 {
     margin: 4% 5% 4% 5%;
   }
 
+  .hexagons {
+    height: 400px;
+    width: 500px;
+    float: right;
+    margin-top: -450px;
+    margin-right: -30px;
+  }
+
+  .yellow-shape {
+    background: #f6ce2f;
+    z-index: 1000;
+    height: 280px;
+    width: 350px;
+    position: relative;
+    transform: rotate(45deg);
+    float: right;
+    margin-top: 12%;
+    margin-right: 8%;
+    border: none;
+  }
+
+  .yellow-shape::before,
+  .yellow-shape::after {
+    content: "";
+    position: absolute;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    margin-bottom: -1px;
+    margin-top: -1px;
+  }
+
+  .yellow-shape:before {
+    border-bottom: 175px solid #f6ce2f;
+    bottom: 100%;
+  }
+
+  .yellow-shape:after {
+    border-top: 175px solid #f6ce2f;
+    top: 100%;
+  }
+
+  .grey-shape {
+    background-color: #767171;
+    height: 196px;
+    width: 294px;
+    margin-top: -41%;
+    margin-right: 6.5%;
+    transform: rotate(45deg);
+    float: right;
+    position: relative;
+    z-index: 800;
+  }
+
+  .grey-shape::before,
+  .grey-shape::after {
+    content: "";
+    position: absolute;
+    border-left: 147px solid transparent;
+    border-right: 147px solid transparent;
+    margin-bottom: -1px;
+    margin-top: -1px;
+  }
+
+  .grey-shape:before {
+    border-bottom: 147px solid #767171;
+    bottom: 100%;
+  }
+
+  .grey-shape:after {
+    border-top: 147px solid #767171;
+    top: 100%;
+  }
+
   .linkedin-icon,
   .github-icon,
   .resume-icon,
@@ -209,7 +391,7 @@ h1 {
     text-align: center;
   }
 
-  img {
+   {
     width: 100%;
     margin: 0;
     position: relative;

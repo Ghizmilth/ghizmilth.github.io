@@ -1,0 +1,12 @@
+.connect-icon {
+  font-size: 48px;
+/*  color: white;*/
+  margin: 0.5rem 0.8rem;
+  margin-top: 1rem;
+}
+
+.connect-row {
+/*  display: flex;*/
+  justify-content: center;
+  margin-bottom: 1rem;
+}

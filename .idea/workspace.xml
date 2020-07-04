@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef92b0bd-254f-4aa3-b039-f0fa98523209" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/anderson/anderson-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/anderson/anderson-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/anderson/anderson-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/anderson/anderson-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/auth-app/auth-app.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/auth-app/auth-app1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/geoquakes/geoquakes1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/geoquakes/geoquakes2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/inbody/inbody-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/inbody/inbody-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/inbody/inbody-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/inbody/labs-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/kumu/kumu1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/kumu/kumu2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/kumu/kumu3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/kumu/kumu4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/nomad/nomad1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/nomad/nomad2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/nomad/nomad3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/nomad/nomad4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/robot/robot1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/robot/robot2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/troll-race/trolls-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/troll-race/trolls-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/troll-race/trolls-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/wheely/wheely1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/wheely/wheely2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/wheely/wheely3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/wheely/wheely4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/me-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/team/me-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/team/me-34.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +19,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1e6YppxQrr2JffcbOSfo58proWo" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -89,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593643694624</updated>
-      <workItem from="1593643696133" duration="6197000" />
+      <workItem from="1593643696133" duration="14346000" />
     </task>
     <servers />
   </component>

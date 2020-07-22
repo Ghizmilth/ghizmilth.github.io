@@ -14,3 +14,9 @@
 .tech-used {
   font-size: 10px;
 }
+
+.mr-3 {
+  border-style: solid;
+  border-color: darkgray;
+  border-width: 0.5px;
+}
